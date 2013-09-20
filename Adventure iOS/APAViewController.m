@@ -47,6 +47,7 @@
 
 #import "APAViewController.h"
 #import "APAAdventureScene.h"
+#import <LookBack/LookBack.h>
 
 // Uncomment this line to show debug info in the Sprite Kit view:
 //#define SHOW_DEBUG_INFO 1
@@ -105,6 +106,23 @@
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
+}
+
+#pragma mark - Lookback
+- (IBAction)showLookback:(id)sender
+{
+    GFSettingsViewController *lookbackSettings = [GFSettingsViewController settingsViewControllerForInstance:[LookBack lookback]];
+    lookbackSettings.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismissModal)];
+    
+    UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:lookbackSettings];
+    
+    
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+- (void)dismissModal
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - Rotation

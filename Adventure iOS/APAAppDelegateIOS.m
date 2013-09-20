@@ -46,8 +46,16 @@
  */
 
 #import "APAAppDelegateIOS.h"
+#import <LookBack/LookBack.h>
+#import <UIKit/UIKit.h>
 
 @implementation APAAppDelegateIOS
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [LookBack setupWithAppToken:@"mYegD86WrAg5EtBhk"];
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

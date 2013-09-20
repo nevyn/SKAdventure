@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05E1ABEE17EC2E8B00C06E68 /* GFSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E1ABE617EC2E8B00C06E68 /* GFSettings.storyboard */; };
+		05E1ABEF17EC2E8B00C06E68 /* lookback-app-toggler-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E1ABE717EC2E8B00C06E68 /* lookback-app-toggler-off@2x.png */; };
+		05E1ABF017EC2E8B00C06E68 /* lookback-app-toggler-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E1ABE817EC2E8B00C06E68 /* lookback-app-toggler-on@2x.png */; };
+		05E1ABF117EC2E8B00C06E68 /* lookback-app-toggler-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E1ABE917EC2E8B00C06E68 /* lookback-app-toggler-pressed@2x.png */; };
+		05E1ABF217EC2E8B00C06E68 /* lookback-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E1ABEA17EC2E8B00C06E68 /* lookback-logo@2x.png */; };
+		05E1ABF317EC2E8B00C06E68 /* lookback-start-recording@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E1ABEB17EC2E8B00C06E68 /* lookback-start-recording@2x.png */; };
+		05E1ABF417EC2E8B00C06E68 /* lookback-stop-recording@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E1ABEC17EC2E8B00C06E68 /* lookback-stop-recording@2x.png */; };
+		05E1ABF517EC2E8B00C06E68 /* LookBack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1ABED17EC2E8B00C06E68 /* LookBack.framework */; };
+		05E1ABF717EC2EB100C06E68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1ABF617EC2EB100C06E68 /* AVFoundation.framework */; };
+		05E1ABF917EC2EB700C06E68 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1ABF817EC2EB700C06E68 /* AudioToolbox.framework */; };
+		05E1ABFB17EC2EBB00C06E68 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1ABFA17EC2EBB00C06E68 /* CoreVideo.framework */; };
+		05E1ABFD17EC2EC000C06E68 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1ABFC17EC2EC000C06E68 /* CoreMedia.framework */; };
+		05E1ABFF17EC2EC500C06E68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1ABFE17EC2EC500C06E68 /* SystemConfiguration.framework */; };
+		05E1AC0117EC2ECA00C06E68 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1AC0017EC2ECA00C06E68 /* MediaPlayer.framework */; };
+		05E1AC0317EC2ECE00C06E68 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1AC0217EC2ECE00C06E68 /* QuartzCore.framework */; };
 		381803F1175A7AD100D4A0CB /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381803F0175A7AD100D4A0CB /* iPhoneStoryboard.storyboard */; };
 		3818043F175A7E3100D4A0CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818043C175A7E3100D4A0CB /* Default.png */; };
 		38180440175A7E3100D4A0CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818043D175A7E3100D4A0CB /* Default@2x.png */; };
@@ -171,6 +186,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05E1ABE617EC2E8B00C06E68 /* GFSettings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GFSettings.storyboard; sourceTree = "<group>"; };
+		05E1ABE717EC2E8B00C06E68 /* lookback-app-toggler-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookback-app-toggler-off@2x.png"; sourceTree = "<group>"; };
+		05E1ABE817EC2E8B00C06E68 /* lookback-app-toggler-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookback-app-toggler-on@2x.png"; sourceTree = "<group>"; };
+		05E1ABE917EC2E8B00C06E68 /* lookback-app-toggler-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookback-app-toggler-pressed@2x.png"; sourceTree = "<group>"; };
+		05E1ABEA17EC2E8B00C06E68 /* lookback-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookback-logo@2x.png"; sourceTree = "<group>"; };
+		05E1ABEB17EC2E8B00C06E68 /* lookback-start-recording@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookback-start-recording@2x.png"; sourceTree = "<group>"; };
+		05E1ABEC17EC2E8B00C06E68 /* lookback-stop-recording@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookback-stop-recording@2x.png"; sourceTree = "<group>"; };
+		05E1ABED17EC2E8B00C06E68 /* LookBack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LookBack.framework; path = lookback/LookBack.framework; sourceTree = "<group>"; };
+		05E1ABF617EC2EB100C06E68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		05E1ABF817EC2EB700C06E68 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		05E1ABFA17EC2EBB00C06E68 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		05E1ABFC17EC2EC000C06E68 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		05E1ABFE17EC2EC500C06E68 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		05E1AC0017EC2ECA00C06E68 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		05E1AC0217EC2ECE00C06E68 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		2853BC80176516F1007702FB /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		381803F0175A7AD100D4A0CB /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 		3818043C175A7E3100D4A0CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -311,6 +341,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E1AC0317EC2ECE00C06E68 /* QuartzCore.framework in Frameworks */,
+				05E1AC0117EC2ECA00C06E68 /* MediaPlayer.framework in Frameworks */,
+				05E1ABFF17EC2EC500C06E68 /* SystemConfiguration.framework in Frameworks */,
+				05E1ABFD17EC2EC000C06E68 /* CoreMedia.framework in Frameworks */,
+				05E1ABFB17EC2EBB00C06E68 /* CoreVideo.framework in Frameworks */,
+				05E1ABF917EC2EB700C06E68 /* AudioToolbox.framework in Frameworks */,
+				05E1ABF717EC2EB100C06E68 /* AVFoundation.framework in Frameworks */,
+				05E1ABF517EC2E8B00C06E68 /* LookBack.framework in Frameworks */,
 				38750F0F175EEFE600D673AE /* CoreGraphics.framework in Frameworks */,
 				38750F0D175EEFD600D673AE /* UIKit.framework in Frameworks */,
 				3834C7E2172C844200BF3395 /* GameController.framework in Frameworks */,
@@ -321,6 +359,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05E1ABE517EC2E8B00C06E68 /* LookBack-Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05E1ABE617EC2E8B00C06E68 /* GFSettings.storyboard */,
+				05E1ABE717EC2E8B00C06E68 /* lookback-app-toggler-off@2x.png */,
+				05E1ABE817EC2E8B00C06E68 /* lookback-app-toggler-on@2x.png */,
+				05E1ABE917EC2E8B00C06E68 /* lookback-app-toggler-pressed@2x.png */,
+				05E1ABEA17EC2E8B00C06E68 /* lookback-logo@2x.png */,
+				05E1ABEB17EC2E8B00C06E68 /* lookback-start-recording@2x.png */,
+				05E1ABEC17EC2E8B00C06E68 /* lookback-stop-recording@2x.png */,
+			);
+			name = "LookBack-Resources";
+			path = "lookback/LookBack-Resources";
+			sourceTree = "<group>";
+		};
 		3834C798172C839800BF3395 /* Adventure - Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,6 +600,15 @@
 		387FBF54172C829F0072E10A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05E1AC0217EC2ECE00C06E68 /* QuartzCore.framework */,
+				05E1AC0017EC2ECA00C06E68 /* MediaPlayer.framework */,
+				05E1ABFE17EC2EC500C06E68 /* SystemConfiguration.framework */,
+				05E1ABFC17EC2EC000C06E68 /* CoreMedia.framework */,
+				05E1ABFA17EC2EBB00C06E68 /* CoreVideo.framework */,
+				05E1ABF817EC2EB700C06E68 /* AudioToolbox.framework */,
+				05E1ABF617EC2EB100C06E68 /* AVFoundation.framework */,
+				05E1ABE517EC2E8B00C06E68 /* LookBack-Resources */,
+				05E1ABED17EC2E8B00C06E68 /* LookBack.framework */,
 				38750F0E175EEFE600D673AE /* CoreGraphics.framework */,
 				38750F0C175EEFD600D673AE /* UIKit.framework */,
 				3834C7E3172C844F00BF3395 /* GameController.framework */,
@@ -794,11 +856,15 @@
 				387FBF89172C82FF0072E10A /* InfoPlist.strings in Resources */,
 				383F57F617497C7000FCBBAD /* Archer_Walk.atlas in Resources */,
 				383F580017497C7000FCBBAD /* Boss_Walk.atlas in Resources */,
+				05E1ABF217EC2E8B00C06E68 /* lookback-logo@2x.png in Resources */,
+				05E1ABF117EC2E8B00C06E68 /* lookback-app-toggler-pressed@2x.png in Resources */,
 				385CDF72172C8A470044AC51 /* CaveFireSmoke.sks in Resources */,
+				05E1ABF017EC2E8B00C06E68 /* lookback-app-toggler-on@2x.png in Resources */,
 				383F581217497C7000FCBBAD /* Warrior_Idle.atlas in Resources */,
 				384321AB172C91F5002FC613 /* iconWarrior_red.png in Resources */,
 				387FBF95172C82FF0072E10A /* Default-Landscape~ipad.png in Resources */,
 				3882BED8172C9A24004FCC6C /* magicmissile.caf in Resources */,
+				05E1ABEE17EC2E8B00C06E68 /* GFSettings.storyboard in Resources */,
 				385CDF89172C8AC40044AC51 /* leaf_00.png in Resources */,
 				383F57FE17497C7000FCBBAD /* Boss_Idle.atlas in Resources */,
 				384321A3172C91F5002FC613 /* button_warrior.png in Resources */,
@@ -811,6 +877,7 @@
 				387FBF91172C82FF0072E10A /* Default-Portrait~ipad.png in Resources */,
 				383F580A17497C7000FCBBAD /* Goblin_Walk.atlas in Resources */,
 				384321AD172C91F5002FC613 /* lives.png in Resources */,
+				05E1ABF417EC2E8B00C06E68 /* lookback-stop-recording@2x.png in Resources */,
 				38180441175A7E3100D4A0CB /* Default-568h@2x.png in Resources */,
 				383F57F817497C7000FCBBAD /* Boss_Attack.atlas in Resources */,
 				384321A5172C91F5002FC613 /* iconWarrior_blue.png in Resources */,
@@ -823,11 +890,13 @@
 				385CDF82172C8A470044AC51 /* WarriorProjectile.sks in Resources */,
 				383F580417497C7000FCBBAD /* Goblin_Death.atlas in Resources */,
 				383F580E17497C7000FCBBAD /* Warrior_Death.atlas in Resources */,
+				05E1ABF317EC2E8B00C06E68 /* lookback-start-recording@2x.png in Resources */,
 				383F57F217497C7000FCBBAD /* Archer_GetHit.atlas in Resources */,
 				384321A7172C91F5002FC613 /* iconWarrior_green.png in Resources */,
 				385CDF8B172C8AC40044AC51 /* leaf_02.png in Resources */,
 				384321AF172C91F5002FC613 /* logo.png in Resources */,
 				383F580617497C7000FCBBAD /* Goblin_GetHit.atlas in Resources */,
+				05E1ABEF17EC2E8B00C06E68 /* lookback-app-toggler-off@2x.png in Resources */,
 				384321A1172C91F5002FC613 /* button_archer.png in Resources */,
 				385CDF7E172C8A470044AC51 /* ProjectileSplat.sks in Resources */,
 			);
@@ -1024,6 +1093,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks",
+					/Users/nevyn/Dev/Adventure/lookback,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adventure iOS/Adventure iOS-Prefix.pch";
@@ -1033,6 +1103,7 @@
 				);
 				INFOPLIST_FILE = "Adventure iOS/Adventure iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Adventure;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1050,11 +1121,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks",
+					/Users/nevyn/Dev/Adventure/lookback,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adventure iOS/Adventure iOS-Prefix.pch";
 				INFOPLIST_FILE = "Adventure iOS/Adventure iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Adventure;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
