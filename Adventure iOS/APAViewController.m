@@ -115,7 +115,8 @@
     lookbackSettings.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismissModal)];
     
     UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:lookbackSettings];
-    
+    // We don't want to remove SpriteKit from the window (crashes), so keep it in the window by using Custom style.
+    vc.modalPresentationStyle = UIModalPresentationCustom;
     
     [self presentViewController:vc animated:YES completion:nil];
 }
